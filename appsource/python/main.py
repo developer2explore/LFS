@@ -49,16 +49,35 @@ print("declared variable type is " + str(type(tuplevariable)))
 dictvariable = {"name" : "John", "age" : 36}
 print("declared variable type is " + str(type(dictvariable)))
 
+#type casting
+e3x = 35e3
+e3xy = 12E4
+e3xyz = -87.7e100
+e3xyza = True
+
+print(e3x)
+print(type(e3x))
+
+print(e3xy)
+print(int(e3xy))
+print(type(e3xy))
+print(type(int(e3xy)))
+
+print(e3xyz)
+print(type(e3xyz))
+
+print(e3xyza)
+print(type(e3xyza))
+
+print(str(e3xyza))
+print(type(str(e3xyza)))
 
 
 
 
-
-
-
-# Get user input for name and color
-name = input("Enter your name: ")
-color = input("Enter your favorite color: ")
+# # Get user input for name and color
+# name = input("Enter your name: ")
+# color = input("Enter your favorite color: ")
 
 # Print the combined sentence with proper formatting
 print(name + " likes " + color)
