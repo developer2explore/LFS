@@ -142,8 +142,8 @@ print(ssastringSlicing.partition('-'))
 age = 36
 txt = f"My name is John, I am {age}"
 print(txt)
-print("************arthimetic operations*******")
-#arthimetic operations
+print("************arthimetic Operators*******")
+#arthimetic Operators
 a = 123
 b = 10
 print(a + b)
@@ -154,8 +154,8 @@ print(a // b)
 print(a % b)
 print(2**3)
 
-print("************assignment operations*******")
-#assignment operations
+print("************assignment Operators*******")
+#assignment Operators
 a = 20
 print(a)
 a += 5  # a=a+5
@@ -172,3 +172,14 @@ a **=10
 print(a)
 a //= 10 
 print(a)
+
+print("************comparison Operators*******")
+#comparison Operators
+a = 20
+b = 20
+print(a == b)
+print(a != b)
+print(a > b)
+print(a < b)
+print(a >= b)
+print(a <= b)
