@@ -32,22 +32,22 @@ print("declared variable is " + y)
 
 #data types
 intVariable = 5
-print("declared variable type is " + type(intVariable))
+print("declared variable type is " + str(type(intVariable)))
 
 floatvariable = 5.5
-print("declared variable type is " + type(floatvariable))
+print("declared variable type is " + str(type(floatvariable)))
 
 stringvariable = "purushoth"
-print("declared variable type is " + type(stringvariable))
+print("declared variable type is " + str(type(stringvariable)))
 
 arrayvariable = ["1","2"]
-print("declared variable type is " + type(arrayvariable))
+print("declared variable type is " + str(type(arrayvariable)))
 
 tuplevariable = ("1","2")
-print("declared variable type is " + type(tuplevariable))
+print("declared variable type is " + str(type(tuplevariable)))
 
 dictvariable = {"name" : "John", "age" : 36}
-print("declared variable type is " + type(dictvariable))
+print("declared variable type is " + str(type(dictvariable)))
 
 
 
