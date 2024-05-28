@@ -79,8 +79,8 @@ print(type(str(e3xyza)))
 # name = input("Enter your name: ")
 # color = input("Enter your favorite color: ")
 
-# Print the combined sentence with proper formatting
-print(name + " likes " + color)
+# # Print the combined sentence with proper formatting
+# print(name + " likes " + color)
 
               
 # CTRL + / for commenting the selected lines
@@ -91,4 +91,84 @@ print(name + " likes " + color)
 # # Print the combined sentence with proper formatting
 # print(name + " likes " + color)
               
-              
+#StringSlicing  
+print("****************string***************")
+         
+stringSlicing = "Hello, World5. Hello, World!."
+print(stringSlicing[2:5])
+
+print(stringSlicing)
+print(type(stringSlicing))
+print(stringSlicing.upper())
+print(stringSlicing.lower())
+print(stringSlicing.capitalize())
+print(stringSlicing.title())
+
+print(stringSlicing.count("h"))
+print(stringSlicing.count("o"))
+
+print(stringSlicing.endswith("!."))
+print(stringSlicing.find("o"))
+print(stringSlicing.find("o", 5))
+print(stringSlicing.replace("o", '0'))
+astringSlicing = "Hello, World!"
+
+print("Is Upper : ", astringSlicing.isupper())
+print("Is Lower : ", astringSlicing.islower())
+print("Is Alpha Numeric : ", astringSlicing.isalnum())
+print("Is Alpha : ", astringSlicing.isalpha())
+
+sastringSlicing = "he\nis\ngood"
+print(sastringSlicing)
+print(sastringSlicing.splitlines())
+print(sastringSlicing.splitlines(True))
+
+sastringSlicing = "Tutor Joes Computer Education"
+print(sastringSlicing.split(" "))
+
+sastringSlicing = "Tutor,Joes,Computer,Education"
+print(sastringSlicing.split(","))
+
+sastringSlicing="    Joes     "
+print(len(sastringSlicing))
+print(len(sastringSlicing.strip()))
+print(len(sastringSlicing.lstrip()))
+print(len(sastringSlicing.rstrip()))
+
+ssastringSlicing='12-03-2020'
+print(ssastringSlicing.partition('-'))
+
+#f String
+age = 36
+txt = f"My name is John, I am {age}"
+print(txt)
+print("************arthimetic operations*******")
+#arthimetic operations
+a = 123
+b = 10
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a // b)
+print(a % b)
+print(2**3)
+
+print("************assignment operations*******")
+#assignment operations
+a = 20
+print(a)
+a += 5  # a=a+5
+print(a)
+a -= 10  # a=a-10
+print(a)
+a *= 10  # a=a*10
+print(a)
+a /= 10
+print(a)
+a %= 10
+print(a)
+a **=10
+print(a)
+a //= 10 
+print(a)
