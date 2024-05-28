@@ -194,7 +194,7 @@ print(not(a >= 10 or a <= 20))
 # returns False because not is used to reverse the result
 
 print("************IF Statement in Python*******")
-#IF Statement in Python
+#IF Statement
 n = int(input("Enter The Number : "))
 if n % 2 == 0:
     print(n, " is Even Number")
